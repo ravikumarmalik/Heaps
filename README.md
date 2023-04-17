@@ -23,3 +23,8 @@ A binary heap is normally represented as an Array. As it is a complete binary tr
 
 So in general for any ith node in the binary heap array representation, A[i], we can represent the indices of other nodes as shown below.
 
+Heap is not implemented as a class because it's take too much time (o(n)+extra time)
+
+node index=i
+left child=2i+1
+right child=2i+2
